@@ -26,7 +26,7 @@ h6,
 .h5,
 .h6 {
     font-family: 'Barlow', sans-serif;
-    color: var(--secondary);
+    color: var(--secondary)
 }
 
 p {
@@ -39,16 +39,22 @@ a {
     color: var(--primary)
 }
 
-a:hover {
+a:hover,
+.navbar-text .d-inline a:hover {
     color: var(--primary-light);
     -webkit-transition: 300ms ease-in;
     -o-transition: 300ms ease-in;
     transition: 300ms ease-in
 }
 
+.navbar-text .d-inline a {
+    color: var(--white);
+    font-size: 1.125rem
+}
+
 .btn:focus {
     outline: 2px dashed;
-    outline-color: (--primary-light);
+    outline-color: var(--primary-light);
     outline-offset: 3px;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -79,9 +85,17 @@ a.facebook:hover {
    color: #215AA6; 
 }
 
+.navbar {
+background-color: var(--primary)    
+}
+
+.navbar-text {
+    color: var(--primary-dark)
+}
+
 h1,
 .h1 {
-    font-size: 3.125rem
+    font-size: 3.925rem
 }
 
 h2,
@@ -110,8 +124,40 @@ h6,
 }
 
 .bl-1 {
-    padding-top: 20vh;
-    padding-bottom: 15vh
+    background: url(../materiali/atteli/bg-pirtsbuvnieks.jpg) center center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    padding-top: 25vh;
+    padding-bottom: 20vh
+}
+
+.bl-1:before {
+    content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: -o-linear-gradient(30deg, #29323c 0%, #485563 100%);
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	opacity: .75; 
+}
+
+.bl-1 h1,
+.bl-1 p {
+    color: var(--white)
+}
+
+.bl-1__logo {
+    position: absolute;
+    margin: 0 auto;
+    top: -90px;
+    left: 15%
+}
+
+.navbar-text__pl {
+    padding-left: 20%
 }
 
 .bl-2,
@@ -134,7 +180,15 @@ p.light-text {
     color: var(--gray);
 }
 
+.small-text {
+    font-size: .875rem
+}
+
 footer {
     padding-top: 5vh;
     padding-bottom: 5vh
+}
+
+footer a {
+    font-size: 1.325rem;
 }
