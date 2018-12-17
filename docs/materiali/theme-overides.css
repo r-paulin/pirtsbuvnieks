@@ -8,7 +8,9 @@
     --bg-light: #FAFAFA;
 }
 
-
+html {
+  scroll-behavior: smooth;
+}
 body {
     font-family: 'Roboto', sans-serif;
 }
