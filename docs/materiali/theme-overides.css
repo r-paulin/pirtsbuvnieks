@@ -173,33 +173,31 @@ h6,
 @-webkit-keyframes pulsate-bck {
   0% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+            transform: scale(1)
   }
   50% {
     -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+            transform: scale(0.9)
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+            transform: scale(1)
   }
 }
 @keyframes pulsate-bck {
   0% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+            transform: scale(1)
   }
   50% {
     -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+            transform: scale(0.9)
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+            transform: scale(1)
   }
 }
-
-
 
 .bl-2,
 .bl-3,
@@ -218,11 +216,11 @@ h6,
 }
 
 p.light-text {
-    color: var(--gray);
+    color: var(--gray)
 }
 
 .small-text {
-    font-size: .875rem
+    font-size: .975rem
 }
 
 footer {
@@ -231,5 +229,5 @@ footer {
 }
 
 footer a {
-    font-size: 1.325rem;
+    font-size: 1.125rem
 }
